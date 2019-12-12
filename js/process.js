@@ -12,3 +12,30 @@ function HideMenus(){
 		}
 	}
 }
+
+var btnTimer = setInterval( function(){
+	HideButtons();
+});
+// var bBtn1 = false;
+// var bBtn2 = false;
+function HideButtons(){
+	if( $(".bp-summary__hero-cta-fixed").length){
+		$(".bp-summary__hero-cta-fixed").hide();
+		clearInterval( btnTimer);
+	}
+	// if( !bBtn1){
+	// 	var arrBtns = $("button.payment-drawer__gylp-button");
+	// 	for( var i = 0; i < arrBtns.length; i++){
+	// 		if( arrBtns.eq(i).innerHTML.toLocaleLowerCase() == "get your local price"){
+	// 			arrBtns.eq(i).hide();
+	// 			break;
+	// 		}
+	// 	}
+	// }
+	// if( !bBtn2){
+
+	// }
+	// if( bBtn1 && bBtn2) {
+	// 	clearInterval( btnTimer);
+	// }
+}

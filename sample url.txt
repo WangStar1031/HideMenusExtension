@@ -1,1 +1,2 @@
-https://www.hyundaicanada.com/en/special-offers
+https://www.hyundaicanada.com/en/special-offers : menu.
+https://www.hyundaicanada.com/en/shopping-tools/buildandprice : some elements.

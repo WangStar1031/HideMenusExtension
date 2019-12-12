@@ -1,12 +1,12 @@
 {
-	"name": "Hide Menus Extension on https://www.hyundaicanada.com/en/special-offers",
+	"name": "Hide Menus Extension on hyundaicanada.com",
 	"version": "1.0",
 	"description": "Adding administration price and change logo",
 	"permissions": ["activeTab","declarativeContent","storage", "input"],
 	"content_scripts": [
 		{
 			"run_at": "document_start",
-			"matches": ["https://www.hyundaicanada.com/en/special-offers"],
+			"matches": ["https://www.hyundaicanada.com/en/special-offers", "https://www.hyundaicanada.com/en/shopping-tools/buildandprice"],
 			"js":["js/jquery.min.js", "js/process.js"]
 		}
 	],
